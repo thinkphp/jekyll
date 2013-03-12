@@ -58,6 +58,29 @@ Let's create a layout. Open _layouts/default.html and add:
 </html>
 ```
 
+Let's create another layout. Open _layouts/posts.html and add:
+
+```
+---
+layout: default
+comments: false
+---
+<article>
+  <header>
+    <h1>
+      <a href="{{ page.url }}">{{ page.title }}</a>
+    </h1>
+    <time datetime="{{ page.date | date: "%Y-%m-%d" }} pubdate">
+      {{ page.date | date: "%B %d, %Y" }}
+    </time>
+  </header>
+  {{ content }}
+  <footer>
+  </footer>
+</article>
+
+```
+
 Posts belong in a folder, called _posts. The file name pattern for posts must be specific as well:
 year-month-day-title.ext (in this case is md). Any file in your Jekyll site, really ca be either Markdown or HTML.
 So, let's create few posts:
