@@ -58,6 +58,46 @@ Let's create a layout. Open _layouts/default.html and add:
 </html>
 ```
 
+Posts belong in a folder, called _posts. The file name pattern for posts must be specific as well:
+year-month-day-title.ext (in this case is md). Any file in your Jekyll site, really ca be either Markdown or HTML.
+So, let's create few posts:
+
+_posts/2013-02-01-Geospoofing-with-the-Raspberry-Pi.md
+
+```
+---
+layout: posts
+title: Geospoofing with the Raspberry Pi
+---
+
+Veni Vidi Vici Veni Vidi Vici Veni Vidi Vici Veni Vidi Vici 1
+
+```
+
+_posts/2013-02-02-Geospoofing-with-the-Raspberry-Pi2.md
+
+```
+---
+layout: posts
+title: Geospoofing with the Raspberry Pi 2
+---
+
+Veni Vidi Vici Veni Vidi Vici Veni Vidi Vici Veni Vidi Vici 2
+
+```
+
+_posts/2013-02-02-Geospoofing-with-the-Raspberry-Pi3.md
+
+```
+---
+layout: posts
+title: Geospoofing with the Raspberry Pi 3
+---
+
+Veni Vidi Vici Veni Vidi Vici Veni Vidi Vici Veni Vidi Vici 3
+
+```
+
 We need an index page. Open index.md and add:
 
 ```
