@@ -71,3 +71,39 @@ title: home
 {% endfor %}
 
 ```
+
+## Deploying to Heroku
+
+First, install the [Heroku Toolbelt] on your local workstation. This ensures that you have access to the Heroku 
+command-line client.
+
+Create a git repo and commit
+
+```
+   git init
+   git add .
+   git commit -m 'first commit'
+```
+
+Create a Heroku app using
+
+```
+   heroku create  
+```
+
+Deploy
+
+```
+   git push heroku master  
+```
+
+Test it!
+
+```
+  heroku open
+```
+
+
+[Heroku Toolbelt]: https://toolbelt.heroku.com/
+
+
