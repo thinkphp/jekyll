@@ -1,7 +1,38 @@
+<!DOCTYPE html>
 <html>
+<head>
+  <meta charset=utf-8 />
+  <link href='/css/screen.css' rel='stylesheet' type='text/css' />
+  <link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css' />
+  <link href='/css/syntax.css' rel='stylesheet' type='text/css' />
+  <link href='http://mwmanning.com/rss.xml' rel='alternate' type='application/rss+xml' title='matthew manning' />
+  <title>matthew manning - {{ page.title }}</title>
+</head>
 <body>
-
-  {{ content }}
-
+  <header>
+    <h1><a href='/index.html'>matthew manning</a></h1>
+    <nav>
+      <a href='/index.html'>blog</a>
+      -
+      <a href='/projects/index.html'>projects</a>
+    </nav>
+  </header>
+  <div id='content'>
+    {{ content }}
+  </div>
+  <footer>
+    <a href='/contact.html'>contact</a>
+    -
+    <a href='https://github.com/mattmanning'>github</a>
+    -
+    <a href='http://twitter.com/#!/mattmanning'>twitter</a>
+    -
+    <a href='http://www.linkedin.com/in/mattmanning'>linked in</a>
+    -
+    <a href='https://plus.google.com/112810635638275213729'>google+</a>
+    -
+    <a href='http://www.facebook.com/mattmanning'>facebook</a>
+  </footer>
 </body>
 </html>
+

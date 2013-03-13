@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Jekyll Hello World
+title: home
 ---
 
-<h1>Hello World</h1>
+{% for post in site.posts %}
+[{{ post.date | date: "%B %d, %Y" }} - {{ post.title }}]({{ post.url }})
+{% endfor %}
