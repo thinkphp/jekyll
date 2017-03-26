@@ -3,8 +3,8 @@ layout: posts
 title: Generators
 ---
 
-Generators
-----------
+{{Generators}}
+-------------
 
 
 Generators (also called simple generators for historical reasons) are relatively new to Python,
