@@ -22,7 +22,7 @@ Making a generator
 Making a generator is simple; it's just like making a function. I'm sure you are starting to tire of 
 the good old Fibonacci sequence by now, so let me do something else.
 
-{% highlight python %}
+{% highlight ruby %}
 
     def nth(gen, n): 
 
