@@ -5,8 +5,5 @@ linenos: true
 highlight:
   linenos: true
 
-highlight_options:
-  linenos: true
-
 exclude:  [ Gemfile, Gemfile.lock, Procfile, vendor, gems]
 
