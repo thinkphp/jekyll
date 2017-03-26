@@ -22,7 +22,7 @@ Making a generator
 Making a generator is simple; it's just like making a function. I'm sure you are starting to tire of 
 the good old Fibonacci sequence by now, so let me do something else.
 
-    def nth(gen, n): 
+def nth(gen, n): 
 
      for i in xrange(n - 1): 
 
@@ -30,7 +30,7 @@ the good old Fibonacci sequence by now, so let me do something else.
 
          return gen.next() 
 
-    def gen_primes(): 
+def gen_primes(): 
 
       yield 2 
       yield 3 
@@ -44,7 +44,7 @@ the good old Fibonacci sequence by now, so let me do something else.
 
         i += 2 
 
-    def is_prime(n): 
+def is_prime(n): 
 
       if n <= 1: return False 
 
