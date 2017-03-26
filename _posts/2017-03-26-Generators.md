@@ -23,8 +23,6 @@ Making a generator
 Making a generator is simple; it's just like making a function. I'm sure you are starting to tire of 
 the good old Fibonacci sequence by now, so let me do something else.
 
-```java
-
     def nth(gen, n): 
 
      for i in xrange(n - 1): 
@@ -64,5 +62,3 @@ the good old Fibonacci sequence by now, so let me do something else.
          if n % d == 0: return False 
  
          d += 2 return True
-
-```
