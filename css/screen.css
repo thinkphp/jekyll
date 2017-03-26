@@ -194,19 +194,8 @@ footer {
   font-size: 16px;
 }
 
-pre{
 
-max-width: auto;
-padding: 0;
-margin: 0;
-overflow: visible;
-word-wrap: normal;
-background-color: transparent;
-border: 0;
-
-}
-
-pre code {
+pre code{
 
 padding: 0;
 padding-top: 0.2em;
