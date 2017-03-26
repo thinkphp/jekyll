@@ -3,9 +3,8 @@ layout: posts
 title: Generators
 ---
 
-{{Generators}}
--------------
-
+Generators
+----------
 
 Generators (also called simple generators for historical reasons) are relatively new to Python,
 and are (along with iterators) perhaps one of the most powerful features to come along for years. However, the 
