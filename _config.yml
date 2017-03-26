@@ -1,5 +1,4 @@
 exclude:  [ Gemfile, Gemfile.lock, Procfile, vendor, gems]
-markdown: kramdown
 highlighter: rouge
 
 
