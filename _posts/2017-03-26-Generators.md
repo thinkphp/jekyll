@@ -12,7 +12,7 @@ generators concept is rather advanced, and it may take a while before it "clicks
 how it would be useful for you. Rest assured that while generators can help you write really elegant code, you can
 certainly write any program you wish without a trace of generatos.
 
-    O generator is a kind of iterator that is defined with normal function syntax. Exactly how generators
+A generator is a kind of iterator that is defined with normal function syntax. Exactly how generators
 work is best known through example. Let's first have a look at how you make them and use them, and take a peek 
 under the hood.  
 
