@@ -17,6 +17,7 @@ touch index.md
 mkdir _posts
 mkdir _layouts
 touch _layouts/default.html
+touch _layouts/posts.html
 ```
 
 ## Hello World Jekyll
