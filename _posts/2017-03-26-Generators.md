@@ -23,10 +23,6 @@ Making a generator is simple; it's just like making a function. I'm sure you are
 the good old Fibonacci sequence by now, so let me do something else.
 
 
- ```python
-
-    Example
-
     def nth(gen, n): 
 
      for i in xrange(n - 1): 
@@ -66,5 +62,3 @@ the good old Fibonacci sequence by now, so let me do something else.
          if n % d == 0: return False 
  
          d += 2 return True
-
-  ```
