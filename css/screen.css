@@ -169,14 +169,15 @@ pre {
 }
 
 code {
-  font-family: Monaco, monospace;
-  font-size: 14px;
-  background-color: #eee;
+color: #ccc; 
+display:inline-block; 
+padding: 0 5px; 
+border-right:1px solid #ccc; }
+font-family: Monaco, monospace;
+font-size: 14px;
+background-color: #eee;
 }
 
-pre code {
-  background-color: #444;
-}
 
 article footer {
   margin-top: auto;
