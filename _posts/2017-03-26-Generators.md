@@ -24,7 +24,7 @@ the good old Fibonacci sequence by now, so let me do something else.
 
 Example
 
-  def nth(gen, n): 
+   def nth(gen, n): 
 
      for i in xrange(n - 1): 
 
@@ -32,18 +32,21 @@ Example
 
          return gen.next() 
 
-  def gen_primes(): 
-    yield 2 
-    yield 3 
-    i = 5 
+   def gen_primes(): 
 
-    while True: 
+      yield 2 
+      yield 3 
+      i = 5 
+
+     while True: 
 
      if is_prime(i): 
+
         yield i 
+
         i += 2 
 
-  def is_prime(n): 
+   def is_prime(n): 
 
       if n <= 1: return False 
 
