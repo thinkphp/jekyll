@@ -159,23 +159,13 @@ article ul a {
   color: blue;
 }
 
-pre {
-  padding: 7px;
-  background-color: #444;
-  color: white;
-  margin-bottom: 24px;
-  overflow-x: auto;
-  border: 5px ridge;
-}
-
-code {
-color: #ccc; 
-display:inline-block; 
-padding: 0 5px; 
-border-right:1px solid #ccc; }
-font-family: Monaco, monospace;
-font-size: 14px;
-background-color: #eee;
+pre code {
+  white-space: pre; 
+  overflow-x: auto; 
+  word-wrap: normal;
+  color: #ccc; display:inline-block; 
+  padding: 0 5px; 
+  border-right:1px solid #ccc; 
 }
 
 
