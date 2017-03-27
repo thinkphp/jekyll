@@ -163,9 +163,9 @@ pre code {
   white-space: pre; 
   overflow-x: auto; 
   word-wrap: normal;
-  color: #ccc; display:inline-block; 
-  padding: 0 5px; 
-  border-right:1px solid #ccc; 
+  color: #ccc; 
+  display:inline-block; 
+  padding: 0 5px;   
 }
 
 

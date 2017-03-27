@@ -63,3 +63,9 @@ the good old Fibonacci sequence by now, so let me do something else.
          if n % d == 0: return False 
  
          d += 2 return True
+
+   ```ruby
+   require 'redcarpet'
+   markdown = Redcarpet.new("Hello World!")
+   puts markdown.to_html
+   ```
