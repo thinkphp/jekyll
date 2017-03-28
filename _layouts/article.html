@@ -1,0 +1,18 @@
+---
+layout: default
+external: [latex]
+---
+
+<div class="content">
+  <div class="post">
+    <h1>
+    <a href"{{ page.url }}">{{ page.title }}</a>
+    </h1>
+    <div class="post-content">
+      {{ content }}
+    </div>
+  </div>
+  {% include about.html %}
+  {% include adsense_leaderboard.html %}
+  {% include comments.html %}
+</div>

@@ -1,4 +1,9 @@
-source :rubygems
+source 'https://rubygems.org'
+ruby "2.1.1"
 
-gem 'RedCloth'
+gem 'rack-contrib'
+gem 'rack-rewrite'
+gem 'rack-slashenforce'
+gem 'kramdown'
 gem 'jekyll'
+gem 'unicorn'
